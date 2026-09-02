@@ -1,0 +1,230 @@
+.features {
+  padding: 100px 0;
+  background: var(--white);
+  color: var(--light-text);
+}
+
+.features-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+.features-starburst {
+  flex-shrink: 0;
+  animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.features-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.feature-card {
+  background: #fafafe;
+  border: 1px solid #e8e8f0;
+  border-radius: 20px;
+  padding: 32px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.feature-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: var(--accent);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  font-size: 0.9rem;
+  color: var(--light-text-secondary);
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.feature-preview {
+  background: var(--white);
+  border-radius: 14px;
+  padding: 16px;
+  border: 1px solid #e8e8f0;
+}
+
+.fp-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.fp-user + .fp-user {
+  border-top: 1px solid #f0f0f5;
+}
+
+.fp-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+.fp-name {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.fp-role {
+  font-size: 0.65rem;
+  color: #888;
+}
+
+.fp-rating {
+  margin-left: auto;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #f5a623;
+}
+
+.schedule-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.schedule-item + .schedule-item {
+  border-top: 1px solid #f0f0f5;
+}
+
+.schedule-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 40px;
+}
+
+.sched-day {
+  font-size: 0.6rem;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.sched-num {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.schedule-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sched-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.sched-time {
+  font-size: 0.6rem;
+  color: #888;
+}
+
+.sched-status {
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.sched-status.active {
+  background: #e8f5e8;
+  color: #2e7d32;
+}
+
+.sched-status.pending {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.trust-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trust-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.trust-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #e8f5e8;
+  color: #2e7d32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 968px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .features-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .features-title {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,31 @@
+.banner {
+  background: var(--white);
+  padding: 16px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-track {
+  display: flex;
+  animation: scroll-banner 30s linear infinite;
+  white-space: nowrap;
+}
+
+.banner-text {
+  color: #1a1a2e;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-right: 40px;
+  flex-shrink: 0;
+}
+
+@keyframes scroll-banner {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
