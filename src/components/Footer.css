@@ -1,7 +1,8 @@
 .footer {
   padding: 80px 0 40px;
-  background: var(--bg-primary);
-  border-top: 1px solid var(--border);
+  background: var(--dark-section-bg);
+  color: var(--dark-section-text);
+  border-top: 1px solid var(--dark-section-border);
 }
 
 .footer-grid {
@@ -17,12 +18,19 @@
   gap: 8px;
   font-size: 1.4rem;
   font-weight: 700;
-  margin-bottom: 16px;
+}
+
+.footer .logo-icon {
+  color: var(--primary);
+}
+
+.footer .logo-text {
+  color: var(--dark-section-text);
 }
 
 .footer-desc {
   font-size: 0.9rem;
-  color: var(--text-secondary);
+  color: var(--dark-section-muted);
   line-height: 1.7;
   max-width: 320px;
   margin-bottom: 24px;
@@ -37,25 +45,26 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: var(--bg-secondary);
-  border: 1px solid var(--border);
+  background: var(--dark-section-surface);
+  border: 1px solid var(--dark-section-border);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-secondary);
+  color: var(--dark-section-muted);
   transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 
 .social-link:hover {
-  background: var(--accent);
-  color: var(--white);
-  border-color: var(--accent);
+  background: var(--primary);
+  color: var(--on-primary);
+  border-color: var(--primary);
 }
 
 .footer-col h4 {
   font-size: 0.9rem;
   font-weight: 700;
   margin-bottom: 20px;
+  color: var(--dark-section-text);
 }
 
 .footer-col ul {
@@ -66,23 +75,23 @@
 
 .footer-col a {
   font-size: 0.85rem;
-  color: var(--text-secondary);
+  color: var(--dark-section-muted);
   transition: color 0.2s;
 }
 
 .footer-col a:hover {
-  color: var(--white);
+  color: var(--on-primary);
 }
 
 .footer-bottom {
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--dark-section-border);
   padding-top: 24px;
   text-align: center;
 }
 
 .footer-bottom p {
   font-size: 0.8rem;
-  color: var(--text-secondary);
+  color: var(--dark-section-muted);
 }
 
 @media (max-width: 768px) {

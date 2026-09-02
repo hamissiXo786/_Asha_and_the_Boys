@@ -44,10 +44,10 @@ function Hero() {
               <span className="stat-value">1.2M</span>
             </div>
             <div className="hero-stat-avatars">
-              <div className="avatar" style={{ background: '#7C5CFC' }}>J</div>
-              <div className="avatar" style={{ background: '#5ca3fc' }}>M</div>
-              <div className="avatar" style={{ background: '#fc5c8a' }}>A</div>
-              <div className="avatar" style={{ background: '#5cfca3' }}>R</div>
+              <div className="avatar" style={{ background: '#29B6F6' }}>J</div>
+              <div className="avatar" style={{ background: '#0288D1' }}>M</div>
+              <div className="avatar" style={{ background: '#4FC3F7' }}>A</div>
+              <div className="avatar" style={{ background: '#0D47A1' }}>R</div>
               <div className="avatar avatar-more">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M5 12h14M12 5l7 7-7 7" />
@@ -89,9 +89,9 @@ function Hero() {
                     <span>📅 15 Mar</span>
                   </div>
                   <div className="card-avatars-row">
-                    <div className="mini-avatar" style={{ background: '#7C5CFC' }}></div>
-                    <div className="mini-avatar" style={{ background: '#5ca3fc' }}></div>
-                    <div className="mini-avatar" style={{ background: '#fc5c8a' }}></div>
+                    <div className="mini-avatar" style={{ background: '#29B6F6' }}></div>
+                    <div className="mini-avatar" style={{ background: '#0288D1' }}></div>
+                    <div className="mini-avatar" style={{ background: '#4FC3F7' }}></div>
                     <span className="card-count">4 🗨️ 8</span>
                   </div>
                 </div>

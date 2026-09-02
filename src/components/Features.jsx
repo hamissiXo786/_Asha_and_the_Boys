@@ -37,7 +37,7 @@ function Features() {
             </p>
             <div className="feature-preview">
               <div className="fp-user">
-                <div className="fp-avatar" style={{ background: '#7C5CFC' }}>S</div>
+                <div className="fp-avatar" style={{ background: '#29B6F6' }}>S</div>
                 <div>
                   <div className="fp-name">Sarah M.</div>
                   <div className="fp-role">Deep Clean Specialist</div>
@@ -45,7 +45,7 @@ function Features() {
                 <div className="fp-rating">★ 4.9</div>
               </div>
               <div className="fp-user">
-                <div className="fp-avatar" style={{ background: '#5ca3fc' }}>J</div>
+                <div className="fp-avatar" style={{ background: '#0288D1' }}>J</div>
                 <div>
                   <div className="fp-name">James K.</div>
                   <div className="fp-role">Office Cleaning</div>

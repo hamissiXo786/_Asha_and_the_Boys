@@ -1,7 +1,7 @@
 .about {
   padding: 100px 0;
-  background: var(--white);
-  color: var(--light-text);
+  background: var(--surface);
+  color: var(--foreground);
 }
 
 .about-inner {
@@ -23,14 +23,14 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: var(--accent);
-  color: var(--white);
+  background: var(--primary);
+  color: var(--on-primary);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 8px 30px rgba(124, 92, 252, 0.4);
+  box-shadow: 0 8px 30px rgba(41, 182, 246, 0.35);
   position: absolute;
   left: 40px;
   top: 50%;
@@ -49,14 +49,14 @@
 
 .about-phone {
   width: 200px;
-  background: #1a1a2e;
+  background: var(--foreground);
   border-radius: 24px;
   padding: 8px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 60px rgba(13, 27, 42, 0.15);
 }
 
 .about-phone-screen {
-  background: #f5f5f7;
+  background: #f8fafe;
   border-radius: 18px;
   padding: 16px;
   min-height: 300px;
@@ -68,8 +68,8 @@
 
 .ap-badge {
   display: inline-block;
-  background: var(--accent);
-  color: var(--white);
+  background: var(--primary);
+  color: var(--on-primary);
   font-size: 0.55rem;
   font-weight: 700;
   padding: 2px 8px;
@@ -81,17 +81,17 @@
 .ap-header h4 {
   font-size: 0.75rem;
   font-weight: 700;
-  color: #1a1a2e;
+  color: var(--foreground);
   margin-bottom: 4px;
 }
 
 .ap-header p {
   font-size: 0.6rem;
-  color: #888;
+  color: var(--muted-light);
 }
 
 .ap-card {
-  background: var(--white);
+  background: var(--card);
   border-radius: 10px;
   padding: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
@@ -100,13 +100,13 @@
 .ap-card h4 {
   font-size: 0.7rem;
   font-weight: 700;
-  color: #1a1a2e;
+  color: var(--foreground);
   margin-bottom: 6px;
 }
 
 .ap-card span {
   font-size: 0.6rem;
-  color: #888;
+  color: var(--muted-light);
 }
 
 .section-tag {
@@ -115,7 +115,7 @@
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--primary);
   margin-bottom: 20px;
 }
 
@@ -125,12 +125,12 @@
   line-height: 1.15;
   letter-spacing: -0.02em;
   margin-bottom: 24px;
-  color: var(--light-text);
+  color: var(--foreground);
 }
 
 .about-text {
   font-size: 1rem;
-  color: var(--light-text-secondary);
+  color: var(--muted);
   line-height: 1.8;
   max-width: 440px;
 }

@@ -1,7 +1,7 @@
 .features {
   padding: 100px 0;
-  background: var(--white);
-  color: var(--light-text);
+  background: var(--background);
+  color: var(--foreground);
 }
 
 .features-header {
@@ -35,8 +35,8 @@
 }
 
 .feature-card {
-  background: #fafafe;
-  border: 1px solid #e8e8f0;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 20px;
   padding: 32px;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -44,15 +44,15 @@
 
 .feature-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 40px rgba(13, 27, 42, 0.08);
 }
 
 .feature-icon {
   width: 56px;
   height: 56px;
   border-radius: 14px;
-  background: var(--accent);
-  color: var(--white);
+  background: var(--primary);
+  color: var(--on-primary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,16 +67,16 @@
 
 .feature-card p {
   font-size: 0.9rem;
-  color: var(--light-text-secondary);
+  color: var(--muted);
   line-height: 1.7;
   margin-bottom: 24px;
 }
 
 .feature-preview {
-  background: var(--white);
+  background: var(--card);
   border-radius: 14px;
   padding: 16px;
-  border: 1px solid #e8e8f0;
+  border: 1px solid var(--border);
 }
 
 .fp-user {
@@ -87,7 +87,7 @@
 }
 
 .fp-user + .fp-user {
-  border-top: 1px solid #f0f0f5;
+  border-top: 1px solid var(--border);
 }
 
 .fp-avatar {
@@ -97,7 +97,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--white);
+  color: var(--on-primary);
   font-weight: 700;
   font-size: 0.8rem;
   flex-shrink: 0;
@@ -110,7 +110,7 @@
 
 .fp-role {
   font-size: 0.65rem;
-  color: #888;
+  color: var(--muted-light);
 }
 
 .fp-rating {
@@ -128,7 +128,7 @@
 }
 
 .schedule-item + .schedule-item {
-  border-top: 1px solid #f0f0f5;
+  border-top: 1px solid var(--border);
 }
 
 .schedule-date {
@@ -140,7 +140,7 @@
 
 .sched-day {
   font-size: 0.6rem;
-  color: #888;
+  color: var(--muted-light);
   text-transform: uppercase;
 }
 
@@ -162,7 +162,7 @@
 
 .sched-time {
   font-size: 0.6rem;
-  color: #888;
+  color: var(--muted-light);
 }
 
 .sched-status {
@@ -175,13 +175,13 @@
 }
 
 .sched-status.active {
-  background: #e8f5e8;
-  color: #2e7d32;
+  background: #dcfce7;
+  color: #16a34a;
 }
 
 .sched-status.pending {
-  background: #fff3e0;
-  color: #e65100;
+  background: #fff7ed;
+  color: #ea580c;
 }
 
 .trust-preview {
@@ -202,8 +202,8 @@
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background: #e8f5e8;
-  color: #2e7d32;
+  background: #dcfce7;
+  color: #16a34a;
   display: flex;
   align-items: center;
   justify-content: center;

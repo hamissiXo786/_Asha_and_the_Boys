@@ -5,7 +5,7 @@
   right: 0;
   z-index: 100;
   padding: 20px 0;
-  background: rgba(15, 15, 20, 0.85);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
 }
@@ -25,12 +25,12 @@
 }
 
 .logo-icon {
-  color: var(--accent);
+  color: var(--primary);
   font-size: 1.6rem;
 }
 
 .logo-text {
-  color: var(--white);
+  color: var(--foreground);
 }
 
 .navbar-links {
@@ -40,18 +40,18 @@
 
 .navbar-links a {
   font-size: 0.95rem;
-  color: var(--text-secondary);
+  color: var(--muted);
   transition: color 0.2s;
   font-weight: 500;
 }
 
 .navbar-links a:hover {
-  color: var(--white);
+  color: var(--foreground);
 }
 
 .navbar-signin {
-  background: var(--accent);
-  color: var(--white);
+  background: var(--primary);
+  color: var(--on-primary);
   padding: 10px 28px;
   border-radius: 50px;
   font-size: 0.9rem;
@@ -60,7 +60,7 @@
 }
 
 .navbar-signin:hover {
-  background: var(--accent-dark);
+  background: var(--primary-dark);
 }
 
 .menu-toggle {
@@ -75,7 +75,7 @@
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--white);
+  background: var(--foreground);
   transition: transform 0.3s, opacity 0.3s;
 }
 
@@ -102,7 +102,7 @@
     left: 0;
     right: 0;
     flex-direction: column;
-    background: var(--bg-primary);
+    background: var(--background);
     padding: 24px;
     gap: 20px;
     border-bottom: 1px solid var(--border);
