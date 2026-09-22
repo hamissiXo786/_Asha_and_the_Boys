@@ -1,4 +1,6 @@
 import './About.css'
+import splashScreen from '../assets/screens/splash.jpg'
+import profileScreen from '../assets/screens/profile.jpg'
 
 function About() {
   return (
@@ -11,18 +13,11 @@ function About() {
             </svg>
           </div>
           <div className="about-phone-grid">
-            <div className="about-phone">
-              <div className="about-phone-screen">
-                <div className="ap-header">
-                  <div className="ap-badge">Top</div>
-                  <h4>Deep Clean Service</h4>
-                  <p>Full house deep cleaning package</p>
-                </div>
-                <div className="ap-card">
-                  <h4>Window & carpet cleaning</h4>
-                  <span>📅 16 Mar</span>
-                </div>
-              </div>
+            <div className="about-phone about-phone-secondary">
+              <img src={profileScreen} alt="Sanz app cleaner profile screen" className="about-phone-screenshot" />
+            </div>
+            <div className="about-phone about-phone-main">
+              <img src={splashScreen} alt="Sanz app welcome screen" className="about-phone-screenshot" />
             </div>
           </div>
         </div>

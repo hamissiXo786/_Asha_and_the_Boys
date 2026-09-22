@@ -1,4 +1,6 @@
 import './CTA.css'
+import bookingsScreen from '../assets/screens/bookings.jpg'
+import detailScreen from '../assets/screens/detail.jpg'
 
 function CTA() {
   return (
@@ -19,29 +21,11 @@ function CTA() {
         </div>
 
         <div className="cta-visual">
-          <div className="cta-phone">
-            <div className="cta-phone-screen">
-              <div className="cta-app-header">
-                <h3>Find your<br />cleaner ✨</h3>
-              </div>
-              <div className="cta-card">
-                <div className="cta-card-badge">Top Rated</div>
-                <h4>Premium Deep Clean</h4>
-                <p>Complete home cleaning service</p>
-                <div className="cta-card-footer">
-                  <span>⭐ 4.9</span>
-                  <span>💰 From R250/hr</span>
-                </div>
-              </div>
-              <div className="cta-card">
-                <h4>Office Cleaning</h4>
-                <p>Professional workspace cleaning</p>
-                <div className="cta-card-footer">
-                  <span>⭐ 4.7</span>
-                  <span>💰 From R300/hr</span>
-                </div>
-              </div>
-            </div>
+          <div className="cta-phone cta-phone-secondary">
+            <img src={detailScreen} alt="Sanz app service detail screen" className="cta-phone-screenshot" />
+          </div>
+          <div className="cta-phone cta-phone-main">
+            <img src={bookingsScreen} alt="Sanz app bookings screen" className="cta-phone-screenshot" />
           </div>
         </div>
       </div>

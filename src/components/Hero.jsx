@@ -1,4 +1,5 @@
 import './Hero.css'
+import homeScreen from '../assets/screens/home.jpg'
 
 function Hero() {
   return (
@@ -61,52 +62,7 @@ function Hero() {
         <div className="hero-visual">
           <div className="phone-mockup">
             <div className="phone-frame">
-              <div className="phone-notch"></div>
-              <div className="phone-screen">
-                <div className="phone-header">
-                  <span className="phone-time">9:41</span>
-                </div>
-                <div className="phone-app-header">
-                  <h3>Find your<br />cleaner ✨</h3>
-                  <div className="phone-calendar">
-                    <div className="cal-row">
-                      <span>Su</span><span>Mo</span><span>Tu</span>
-                      <span className="cal-active">We</span><span>Th</span>
-                      <span>Fr</span><span>Sa</span>
-                    </div>
-                    <div className="cal-row cal-dates">
-                      <span>12</span><span>13</span><span>14</span>
-                      <span className="cal-active">15</span><span>16</span>
-                      <span>17</span><span>18</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="phone-card">
-                  <div className="card-badge">Top</div>
-                  <h4>Deep Clean Service</h4>
-                  <p>Full house deep cleaning</p>
-                  <div className="card-meta">
-                    <span>📅 15 Mar</span>
-                  </div>
-                  <div className="card-avatars-row">
-                    <div className="mini-avatar" style={{ background: '#29B6F6' }}></div>
-                    <div className="mini-avatar" style={{ background: '#0288D1' }}></div>
-                    <div className="mini-avatar" style={{ background: '#4FC3F7' }}></div>
-                    <span className="card-count">4 🗨️ 8</span>
-                  </div>
-                </div>
-                <div className="phone-card card-light">
-                  <h4>Window & carpet cleaning for the Riverside apartment</h4>
-                  <div className="card-meta">
-                    <span>📅 16 Mar - 1:00 PM</span>
-                  </div>
-                  <div className="card-actions">
-                    <span className="action-dot"></span>
-                    <span className="action-dot dark"></span>
-                    <span className="action-dot dark"></span>
-                  </div>
-                </div>
-              </div>
+              <img src={homeScreen} alt="Sanz app home screen showing search, categories, and popular cleaning services" className="phone-screenshot" />
             </div>
           </div>
 
