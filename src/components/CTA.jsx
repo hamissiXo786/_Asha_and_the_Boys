@@ -8,16 +8,16 @@ function CTA() {
       <div className="container cta-inner">
         <div className="cta-content">
           <h2 className="cta-title">
-            Start your free trial
+            Ready to book your
             <br />
-            today just in one click
+            first clean?
           </h2>
           <p className="cta-text">
-            Try our premium cleaning marketplace. Simply sign up for an account
-            and start connecting with trusted cleaners. No credit card required. Find
-            your perfect cleaner and maintain a spotless space effortlessly.
+            Sign up, browse verified local cleaners, and book in minutes.
+            Payment is handled securely through Paystack at checkout — no
+            subscription, you only pay for the services you book.
           </p>
-          <button className="cta-btn">Start Free Trial</button>
+          <button className="cta-btn">Get Started</button>
         </div>
 
         <div className="cta-visual">

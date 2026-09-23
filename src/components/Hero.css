@@ -47,101 +47,39 @@
 .hero-buttons {
   display: flex;
   gap: 16px;
-  margin-bottom: 60px;
+  margin-bottom: 32px;
 }
 
-.store-btn {
-  display: flex;
+.hero-cta-btn {
+  display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 12px 24px;
-  border-radius: 12px;
+  padding: 14px 36px;
+  border-radius: 50px;
   background: var(--primary);
   color: var(--on-primary);
-  font-size: 0.85rem;
+  font-size: 1rem;
+  font-weight: 700;
+  box-shadow: 0 4px 20px rgba(41, 182, 246, 0.3);
   transition: transform 0.2s, background 0.2s;
 }
 
-.store-btn:hover {
+.hero-cta-btn:hover {
   transform: translateY(-2px);
   background: var(--primary-dark);
 }
 
-.google-btn {
-  background: var(--background);
-  color: var(--foreground);
-  border: 2px solid var(--border);
-}
-
-.google-btn:hover {
-  background: var(--surface);
-  border-color: var(--primary);
-}
-
-.store-btn-text {
+.hero-trust {
   display: flex;
-  flex-direction: column;
-  text-align: left;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 400px;
+  color: var(--primary-dark);
 }
 
-.store-btn-small {
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  opacity: 0.7;
-}
-
-.store-btn-large {
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.hero-stats {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.stat-value {
-  font-size: 2.8rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  color: var(--foreground);
-}
-
-.hero-stat-avatars {
-  display: flex;
-  align-items: center;
-}
-
-.avatar {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 0.85rem;
-  color: var(--on-primary);
-  margin-left: -10px;
-  border: 3px solid var(--background);
-}
-
-.avatar:first-child {
-  margin-left: 0;
-}
-
-.avatar-more {
-  background: var(--surface);
-  border: 2px solid var(--primary);
-  color: var(--primary);
-}
-
-.hero-stat-label {
+.hero-trust-label {
   font-size: 0.85rem;
   color: var(--muted);
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .hero-visual {
@@ -255,8 +193,9 @@
     justify-content: center;
   }
 
-  .hero-stats {
+  .hero-trust {
     justify-content: center;
+    margin: 0 auto;
   }
 
   .hero-visual {
@@ -272,10 +211,5 @@
   .hero-buttons {
     flex-direction: column;
     align-items: center;
-  }
-
-  .hero-stats {
-    flex-direction: column;
-    text-align: center;
   }
 }

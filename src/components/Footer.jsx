@@ -39,9 +39,8 @@ function Footer() {
             <h4>Product</h4>
             <ul>
               <li><a href="#features">Features</a></li>
+              <li><a href="#pricing">Pricing</a></li>
               <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Download</a></li>
             </ul>
           </div>
 
@@ -49,25 +48,22 @@ function Footer() {
             <h4>Company</h4>
             <ul>
               <li><a href="#about">About Us</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="mailto:support@sanzcleaning.co.za">Contact</a></li>
             </ul>
           </div>
 
           <div className="footer-col">
             <h4>Support</h4>
             <ul>
-              <li><a href="#">Help Center</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="mailto:support@sanzcleaning.co.za">Help Center</a></li>
+              <li><a href="#refund-policy">Refund &amp; Cancellation Policy</a></li>
+              <li><a href="#terms">Terms of Service</a></li>
             </ul>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 Sanz. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Sanz. All rights reserved.</p>
         </div>
       </div>
     </footer>

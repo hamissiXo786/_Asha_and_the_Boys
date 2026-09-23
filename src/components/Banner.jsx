@@ -1,7 +1,7 @@
 import './Banner.css'
 
 function Banner() {
-  const text = '30 DAYS FREE TRIAL FOR NEW USERS'
+  const text = 'BOOK TRUSTED LOCAL CLEANERS · SECURE PAYMENTS WITH PAYSTACK'
   const repeated = Array(6).fill(text).join('   •   ')
 
   return (
