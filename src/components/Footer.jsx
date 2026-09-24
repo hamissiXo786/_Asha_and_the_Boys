@@ -56,6 +56,7 @@ function Footer() {
             <h4>Support</h4>
             <ul>
               <li><a href="mailto:support@sanzcleaning.co.za">Help Center</a></li>
+              <li><a href="#privacy-policy">Privacy Policy</a></li>
               <li><a href="#refund-policy">Refund &amp; Cancellation Policy</a></li>
               <li><a href="#terms">Terms of Service</a></li>
             </ul>
