@@ -14,7 +14,7 @@ function About() {
           </div>
           <div className="about-phone-grid">
             <div className="about-phone about-phone-secondary">
-              <img src={profileScreen} alt="Sanz app cleaner profile screen" className="about-phone-screenshot" />
+              <img src={profileScreen} alt="Sanz app service provider profile screen" className="about-phone-screenshot" />
             </div>
             <div className="about-phone about-phone-main">
               <img src={splashScreen} alt="Sanz app welcome screen" className="about-phone-screenshot" />
@@ -32,10 +32,10 @@ function About() {
             productivity
           </h2>
           <p className="about-text">
-            Our cleaning marketplace allows you to stay on top of your home maintenance.
-            Find trusted cleaners, schedule services, track progress, and manage payments
-            all in one place. With real-time updates and verified reviews, maintaining a
-            clean space has never been easier.
+            Our home services marketplace allows you to stay on top of your home maintenance.
+            Find trusted providers, schedule services, track progress, and manage payments
+            all in one place. With real-time updates and verified reviews, getting things
+            done around the house has never been easier.
           </p>
         </div>
       </div>

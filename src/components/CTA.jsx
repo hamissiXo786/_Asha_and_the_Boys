@@ -13,7 +13,7 @@ function CTA() {
             first clean?
           </h2>
           <p className="cta-text">
-            Sign up, browse verified local cleaners, and book in minutes.
+            Sign up, browse verified local providers, and book in minutes.
             Payment is handled securely through Paystack at checkout — no
             subscription, you only pay for the services you book.
           </p>

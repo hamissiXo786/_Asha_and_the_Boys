@@ -15,7 +15,7 @@ function Features() {
             <br />
             suite of features to help you
             <br />
-            find the right cleaner
+            find the right provider
           </h2>
         </div>
 
@@ -29,9 +29,9 @@ function Features() {
                 <path d="M16 3.13a4 4 0 0 1 0 7.75" />
               </svg>
             </div>
-            <h3>Connect with Cleaners</h3>
+            <h3>Connect with Providers</h3>
             <p>
-              Find verified freelance cleaners in your area. Browse profiles,
+              Find verified freelance providers in your area. Browse profiles,
               check ratings, read reviews, and connect directly through our
               messaging system.
             </p>
@@ -48,7 +48,7 @@ function Features() {
                 <div className="fp-avatar" style={{ background: '#0288D1' }}>J</div>
                 <div>
                   <div className="fp-name">James K.</div>
-                  <div className="fp-role">Office Cleaning</div>
+                  <div className="fp-role">Gardening & Lawn Care</div>
                 </div>
                 <div className="fp-rating">★ 4.8</div>
               </div>
@@ -66,8 +66,8 @@ function Features() {
             </div>
             <h3>Smart Scheduling</h3>
             <p>
-              Set deadlines, schedule recurring cleaning sessions, and receive
-              timely reminders. Never miss a cleaning appointment with our
+              Set deadlines, schedule recurring service sessions, and receive
+              timely reminders. Never miss an appointment with our
               intelligent scheduling system.
             </p>
             <div className="feature-preview schedule-preview">
@@ -104,7 +104,7 @@ function Features() {
             </div>
             <h3>Verified & Trusted</h3>
             <p>
-              All cleaners on our platform go through a thorough verification
+              All providers on our platform go through a thorough verification
               process. Background checks, identity verification, and ongoing
               review monitoring keep you safe.
             </p>

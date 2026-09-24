@@ -1,14 +1,14 @@
-# Sanz - Cleaner Marketplace
+# Sanz - Home Services Marketplace
 
-A marketplace platform connecting users with freelance cleaners. Built with React + Vite.
+A marketplace platform connecting users with local home service providers (cleaning, gardening, car wash, upholstery, and moving). Built with React + Vite.
 
 ## Features
 
-- Browse and connect with verified freelance cleaners
-- Smart scheduling for cleaning services
-- Verified and trusted cleaner profiles
+- Browse and connect with verified freelance service providers
+- Smart scheduling for bookings
+- Verified and trusted provider profiles
 - Responsive design (mobile + desktop)
-- Dark-themed modern UI
+- Light, blue-themed modern UI
 
 ## Getting Started
 

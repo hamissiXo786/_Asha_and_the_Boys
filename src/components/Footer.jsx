@@ -12,7 +12,7 @@ function Footer() {
             </a>
             <p className="footer-desc">
               The trusted marketplace connecting you with verified freelance
-              cleaners. Making clean spaces accessible to everyone.
+              home service providers. Making everyday help accessible to everyone.
             </p>
             <div className="footer-socials">
               <a href="#" className="social-link" aria-label="Twitter">

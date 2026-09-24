@@ -10,14 +10,14 @@ function Hero() {
           <h1 className="hero-title">
             Easy way to find
             <br />
-            trusted cleaners
+            trusted home services
             <br />
             <span className="hero-title-accent">near you</span>
           </h1>
           <p className="hero-subtitle">
             A powerful platform that connects you with verified freelance
-            cleaners in your area. Book, manage, and pay for cleaning services
-            with our seamless interface.
+            providers in your area — cleaning, gardening, car wash, upholstery,
+            and moving. Book, manage, and pay with our seamless interface.
           </p>
           <div className="hero-buttons">
             <a href="#cta" className="hero-cta-btn">Get Started</a>
@@ -35,7 +35,7 @@ function Hero() {
         <div className="hero-visual">
           <div className="phone-mockup">
             <div className="phone-frame">
-              <img src={homeScreen} alt="Sanz app home screen showing search, categories, and popular cleaning services" className="phone-screenshot" />
+              <img src={homeScreen} alt="Sanz app home screen showing search, categories, and popular home services" className="phone-screenshot" />
             </div>
           </div>
 

@@ -1,7 +1,7 @@
 import './Banner.css'
 
 function Banner() {
-  const text = 'BOOK TRUSTED LOCAL CLEANERS · SECURE PAYMENTS WITH PAYSTACK'
+  const text = 'BOOK TRUSTED LOCAL HOME SERVICES · SECURE PAYMENTS WITH PAYSTACK'
   const repeated = Array(6).fill(text).join('   •   ')
 
   return (

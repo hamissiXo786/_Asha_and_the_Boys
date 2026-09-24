@@ -4,8 +4,8 @@ function HowItWorks() {
   const steps = [
     {
       number: '01',
-      title: 'Browse Cleaners',
-      description: 'Search through our verified network of freelance cleaners. Filter by service type, location, rating, and availability.',
+      title: 'Browse Providers',
+      description: 'Search through our verified network of freelance providers. Filter by service type, location, rating, and availability.',
       icon: (
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="11" cy="11" r="8" />
@@ -16,7 +16,7 @@ function HowItWorks() {
     {
       number: '02',
       title: 'Book a Service',
-      description: 'Select your preferred cleaner, choose the service type, pick a date and time that works for you, and confirm your booking.',
+      description: 'Select your preferred provider, choose the service type, pick a date and time that works for you, and confirm your booking.',
       icon: (
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
@@ -30,7 +30,7 @@ function HowItWorks() {
     {
       number: '03',
       title: 'Get It Done',
-      description: 'Your cleaner arrives at the scheduled time. Track progress in real-time, communicate directly, and pay securely through the app.',
+      description: 'Your provider arrives at the scheduled time. Track progress in real-time, communicate directly, and pay securely through the app.',
       icon: (
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
@@ -44,7 +44,7 @@ function HowItWorks() {
     <section className="how-it-works" id="how-it-works">
       <div className="container">
         <span className="section-tag dark-tag">HOW IT WORKS</span>
-        <h2 className="hiw-title">Simple steps to a<br />cleaner space</h2>
+        <h2 className="hiw-title">Simple steps to<br />get it done</h2>
 
         <div className="steps-grid">
           {steps.map((step) => (
